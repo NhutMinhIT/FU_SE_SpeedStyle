@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!--    <welcome-file-list>
+        <welcome-file>View/home.jsp</welcome-file>
+    </welcome-file-list>-->
+    <!--    <servlet>
+        <servlet-name>HomeControl</servlet-name>
+        <servlet-class>com.speedstyle.prj301.controller.HomeControl</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>HomeControl</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>-->
+    <filter>
+        <filter-name>ErrorPageFilter</filter-name>
+        <filter-class>com.speedstyle.prj301.filter.ErrorPageFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ErrorPageFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <servlet-name>HomeControl</servlet-name>
+        <servlet-class>com.speedstyle.prj301.controller.HomeControl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>com.speedstyle.prj301.controller.LoginController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HomeControl</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/login1</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

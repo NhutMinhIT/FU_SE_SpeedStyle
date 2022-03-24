@@ -1,0 +1,36 @@
+body {
+  background: #212121;
+  }
+
+h2{
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 900;
+    font-size: 6em;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+}
+
+#btn{
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  color: #212121;
+}
+
+input{
+  color:#bdbdbd ;
+}
+
+input[type=password].valid,input[type=text].valid,input[type=email].invalid,input[type=email].valid{
+  color: #bdbdbd!important;
+}
+
+.input-field input[type=text]:focus + label {
+     color: #fff;
+}
+
+#footer{
+  margin-top: 50px;
+  color: #bdbdbd;
+}
