@@ -1,7 +1,6 @@
 # Logo
 ![logo1](https://user-images.githubusercontent.com/90835621/153248185-0db4f6d0-af77-4921-9378-f9e085ab0f91.png)
 
-
 # SpeedStyle
 
 ## Case study
