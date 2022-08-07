@@ -38,9 +38,9 @@ The website allows store owners to manage the products they sell (revenue, order
 ## Developers
 
 - Nguyen Nhut Minh (Leader) | Full stack
-    - Gmail: nhutminh.fpt@gmail.com
-    - Linkedin:
-    - Github: https://github.com/FPTnhutminh00
+    - Gmail: nhutminh.it19@gmail.com
+    - Linkedin: https://www.linkedin.com/in/minhit19/
+    - Github: https://github.com/NhutMinhIT
     
 - Ngo Thi Kim Loan | Full stack
     - Gmail: kimlloan146@gmail.com
